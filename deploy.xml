@@ -4,7 +4,7 @@
 		<id>arclibrary</id>
 		<title>ARC2 library</title>
 		<version>1.6.0</version>
-		<patchlevel>1</patchlevel>
+		<patchlevel>2</patchlevel>
 		<vendor>ontoprise GmbH</vendor>
 		<maintainer>ontoprise GmbH</maintainer>
 		<instdir>extensions/ARCLibrary</instdir>
@@ -35,8 +35,6 @@
 		<new>
 			<require name="arclib_init"
 				file="extensions/ARCLibrary/ARCLibrary.php" />
-			<function name="enableARCLibrary">
-			</function>
 		</new>
 		<uninstall>
 			<!-- empty -->
