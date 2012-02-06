@@ -36,6 +36,10 @@
 			<require name="arclib_init"
 				file="extensions/ARCLibrary/ARCLibrary.php" />
 		</new>
+		<update from="156" removeAll="true">
+            <require name="arclib_init"
+                file="extensions/ARCLibrary/ARCLibrary.php" />
+        </update>
 		<uninstall>
 			<!-- empty -->
 		</uninstall>
